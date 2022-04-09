@@ -3,8 +3,8 @@ A simple waving flag rendering openGL program written in cpp for ceng469 compute
 
 # usage
 ```
-make flag
-./flag [image_file]
+make
+./main [image_file]
 ```
 should create an window containing an animated flag continuously. If no input image file is given the program searches for metu_flag.png in the current directory and uses it for texture mapping.
 
