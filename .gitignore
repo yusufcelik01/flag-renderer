@@ -1,4 +1,7 @@
 *.txt
 *.log
 
-
+flag
+main
+bezier
+llvm.jpg
