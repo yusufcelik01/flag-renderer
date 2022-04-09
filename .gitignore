@@ -5,3 +5,6 @@ flag
 main
 bezier
 llvm.jpg
+*.tar.gz
+*tar
+
