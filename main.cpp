@@ -1178,8 +1178,8 @@ void genSineWave()
     static float time = 0;
     static float wavingParam = 0;
     static float changeWave = 0.025;
-    static float pBound = 0.60f/log(2 + n);
-    static float sin_2PI3 = sinf(M_PI*2/3);
+    static float pBound = 0.90f/log(2 + n);
+    static float sin_2PI3 = sinf(M_PI*2.f/3.f);
 
     static glm::vec3 tl, bl, tr, br;//corners
     static GLfloat flagWidth = 8;
