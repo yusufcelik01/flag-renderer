@@ -1,6 +1,6 @@
 CC=gcc
 CXX=g++
-GLFLAGS= -g -lglfw3 -lpthread -lX11 -ldl -lXrandr -lGLEW -lGL -DGL_SILENCE_DEPRECATION -DGLM_ENABLE_EXPERIMENTAL -I. -msse2
+GLFLAGS= -g -lglfw -lpthread -lX11 -ldl -lXrandr -lGLEW -lGL -DGL_SILENCE_DEPRECATION -DGLM_ENABLE_EXPERIMENTAL -I. -msse2
 CXXFLAGS=$(GLFLAGS)
 
 main: main.cpp helpers.o
